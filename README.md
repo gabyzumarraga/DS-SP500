@@ -52,10 +52,11 @@ mismo, en el futuro) puedan reproducir el entorno.
 
 ## Usage Instructions
 
-1. Clonae el repositorio: https://github.com/gabyzumarraga/DS-SP500.git
+1. Clonar el repositorio: https://github.com/gabyzumarraga/DS-SP500.git
 2. Instalar las librerias requeridas con el siguiente comando:
 
    ```
    pip install -r requirements.txt
    ```
+   
 3. Usar los Jupyter notebooks ubicados en la carpeta `notebooks/`
