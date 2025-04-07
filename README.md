@@ -15,14 +15,22 @@ El proyecto está organizado de la siguiente manera:
 
 ├── data
 │   ├── clean
+│       └── df_clean_companies.csv
+│       └── df_clean_index.csv
+│       └── df_clean_stocks.csv
 │   ├── curated
+│       └── df_curated_companies.csv
+│       └── df_curated_index.csv
+│       └── df_curated_stocks.csv
 │   ├── raw
 │       └── sp500_companies.csv
 │       └── sp500_index.csv
 │       └── sp500_stocks.csv
 ├── notebooks
 │   ├── 01_EDA.ipynb
-│   ├── 02_02_DataWrangling.ipynb
+│   ├── 02_DataWrangling.ipynb
+│   ├── 03_FeatureEngineering.ipynb
+│   ├── 04_Modeling.ipynb
 ├── src
 │   └── data_prep.py
 │   └── utils.py
