@@ -1,13 +1,18 @@
-# Proyecto #1 - CRISP-DM, ELT, EDA, DATA WRANGLING
+# Proyecto #2 - CRISP-DM, FEATURE ENGINEERING AND MODEL RESEARCH 
+
+**Tema:** Análisis del desempeño de las empresas en el S&P (Standard and Poor's) 500 
+utilizando datos históricos del mercado bursátil
 
 El objetivo principal de este proyecto es analizar las tendencias y patrones históricos de precios y volúmenes de las acciones de las empresas del S&P 500 para proporcionar insights accionables.
 
-Para esta primera entrega se realizara lo siguiente: 
-- Entendimiento del 
-problema/negocio
-- Entendimiento de los datos (EDA)
-- Data Preparation (Data 
-Wrangling).
+Una vez finalizado analizada la data, procedemos con el proceso de Feature Engineering Y modeling. El objetivo es realizar la predicción de si sube o no una acción (problema de clasificacion), por lo cual se analizaran algunos modelos para determinar cual el el mejor a utilizar. Para ello, se trabajará únicamente con el archivo sp500_stocks. 
+
+Para esta segunda entrega se realizara lo siguiente: 
+- Entendimiento del problema/negocio
+- EDA (Entendimiento de los datos)
+- Data Wrangling (Data Preparation).
+- Feature Engineering
+- Modeling
 
 ## Project Structure
 
@@ -32,7 +37,7 @@ El proyecto está organizado de la siguiente manera:
 │   ├── 03_FeatureEngineering.ipynb
 │   ├── 04_Modeling.ipynb
 ├── src
-│   └── data_prep.py
+│   └── funciones.py
 │   └── utils.py
 ├── reports
 │   └── CRISP-DM.pdf
