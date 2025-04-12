@@ -1,0 +1,178 @@
+// Resultaodos sin sobremuestreo - Lag 10 dias
+
+// Mejor modelo: LogisticRegression
+// Hiperparámetros: {'max_iter': 500}
+// Exactitud: 0.8218496620900011
+// Recall: 0.5067385142780323
+// Precision: 0.5346184757942511
+// F1: 0.5203052838023592
+
+[
+    {
+        "name": "LogisticRegression",
+        "params": {
+            "max_iter": 100
+        },
+        "Exactitud": 0.8230927949557001,
+        "Recall": 0.6541680203443756,
+        "Precision": 0.529180939952513,
+        "F1": 0.5850738193167643
+    },
+    {
+        "name": "LogisticRegression",
+        "params": {
+            "max_iter": 500
+        },
+        "Exactitud": 0.8218496620900011,
+        "Recall": 0.5067385142780323,
+        "Precision": 0.5346184757942511,
+        "F1": 0.5203052838023592
+    },
+    {
+        "name": "LogisticRegression",
+        "params": {
+            "max_iter": 1000
+        },
+        "Exactitud": 0.8218069427475372,
+        "Recall": 0.5098080951794136,
+        "Precision": 0.5342702169625246,
+        "F1": 0.5217525897305075
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 3,
+            "max_leaf_nodes": 2
+        },
+        "Exactitud": 0.8094055176302727,
+        "Recall": 0.9641396771338628,
+        "Precision": 0.5000929735257885,
+        "F1": 0.658583153182453
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 3,
+            "max_leaf_nodes": 3
+        },
+        "Exactitud": 0.8094055176302727,
+        "Recall": 0.9641396771338628,
+        "Precision": 0.5000929735257885,
+        "F1": 0.658583153182453
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 3,
+            "max_leaf_nodes": 5
+        },
+        "Exactitud": 0.8095870748357441,
+        "Recall": 0.9930430301468693,
+        "Precision": 0.5003301969328374,
+        "F1": 0.6654055474233382
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 5,
+            "max_leaf_nodes": 2
+        },
+        "Exactitud": 0.8094055176302727,
+        "Recall": 0.9641396771338628,
+        "Precision": 0.5000929735257885,
+        "F1": 0.658583153182453
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 5,
+            "max_leaf_nodes": 3
+        },
+        "Exactitud": 0.8094055176302727,
+        "Recall": 0.9641396771338628,
+        "Precision": 0.5000929735257885,
+        "F1": 0.658583153182453
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 5,
+            "max_leaf_nodes": 5
+        },
+        "Exactitud": 0.8095870748357441,
+        "Recall": 0.9930430301468693,
+        "Precision": 0.5003301969328374,
+        "F1": 0.6654055474233382
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 10,
+            "max_leaf_nodes": 2
+        },
+        "Exactitud": 0.8094055176302727,
+        "Recall": 0.9641396771338628,
+        "Precision": 0.5000929735257885,
+        "F1": 0.658583153182453
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 10,
+            "max_leaf_nodes": 3
+        },
+        "Exactitud": 0.8094055176302727,
+        "Recall": 0.9641396771338628,
+        "Precision": 0.5000929735257885,
+        "F1": 0.658583153182453
+    },
+    {
+        "name": "DecisionTreeClassifier",
+        "params": {
+            "max_depth": 10,
+            "max_leaf_nodes": 5
+        },
+        "Exactitud": 0.8095870748357441,
+        "Recall": 0.9930430301468693,
+        "Precision": 0.5003301969328374,
+        "F1": 0.6654055474233382
+    },
+    {
+        "name": "RandomForestClassifier",
+        "params": {
+            "n_estimators": 100
+        },
+        "Exactitud": 0.8092154165563084,
+        "Recall": 0.5692952287061829,
+        "Precision": 0.4997197392099596,
+        "F1": 0.5322433675125947
+    },
+    {
+        "name": "RandomForestClassifier",
+        "params": {
+            "n_estimators": 300
+        },
+        "Exactitud": 0.810345343164478,
+        "Recall": 0.6115299732251885,
+        "Precision": 0.5021710732093245,
+        "F1": 0.5514813224559897
+    },
+    {
+        "name": "RandomForestClassifier",
+        "params": {
+            "n_estimators": 500
+        },
+        "Exactitud": 0.8107682646548704,
+        "Recall": 0.6242340051309053,
+        "Precision": 0.5030242299498068,
+        "F1": 0.5571125053115705
+    },
+    {
+        "name": "VotingClassifier",
+        "params": {},
+        "Exactitud": 0.8091086182001487,
+        "Recall": 0.9364462319214008,
+        "Precision": 0.49968019033158584,
+        "F1": 0.6516468524654063
+    }
+]
