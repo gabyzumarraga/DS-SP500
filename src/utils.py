@@ -1,1 +1,4 @@
 # Constantes 
+
+NUM_VARIABLES_LAG = 5
+TASA_CRECIMIENTO = 2
