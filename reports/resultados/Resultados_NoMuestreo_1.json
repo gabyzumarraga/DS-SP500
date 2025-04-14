@@ -1,4 +1,4 @@
-// Resultaodos sin sobremuestreo - Lag 5 dias
+// Resultados sin sobremuestreo - Lag 5 dias
 
 // Mejor modelo: RandomForestClassifier
 // Hiperparámetros: {'n_estimators': 300}

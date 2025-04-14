@@ -1,4 +1,4 @@
-// Resultaodos con sobremuestreo - Lag 10 dias
+// Resultados con sobremuestreo - Lag 10 dias
 
 // Mejor modelo: LogisticRegression
 // Hiperparámetros: {'max_iter': 1000}
